@@ -1,0 +1,376 @@
+/* ------------------------header-----------------------  */
+.navbar {
+    /* background-color: #37517e !important; */
+    background-color: rgba(40, 58, 90, 0.9);
+}
+
+/* .navbar-nav {
+    margin-left: 123px;
+} */
+
+.nav-item {
+    padding: 5px;
+}
+
+.nav-link {
+    font-size: 17px;
+}
+
+.navbar-nav a {
+    color: rgb(243, 238, 238);
+    font-weight: 500;
+}
+
+.startbtn:hover {
+    color: white !important;
+    background-color: skyblue;
+}
+
+.navbar-toggler {
+    background-color: #ffffff !important;
+}
+
+.icon {
+    width: 34px;
+    height: 3px;
+    background-color: rgb(0, 0, 0);
+    margin: 5px 0px;
+}
+
+
+/* -----------------------home---------------------------------- */
+#home {
+    padding-top: 80px;
+}
+.homecontainer{
+    background-color: #37517e;
+}
+
+.buttons {
+    cursor: pointer;
+}
+
+.playicon {
+    color: aliceblue;
+}
+
+.playicon:hover {
+    color: rgba(142, 194, 240, 0.973);
+}
+
+.client {
+    background-color: #f3f5fa;
+}
+
+.client img {
+    width: 100px;
+    height: 40px;
+}
+
+
+/* ----------------------------about------------------------------------- */
+#about {
+    padding-top: 50px;
+}
+
+.heading {
+    color: #37517D;
+}
+
+.about-sub {
+    background-color: #f3f5fa;
+}
+
+.sub-heading {
+    color: #37517e;
+}
+
+.skill-heading {
+    color: #37517e;
+}
+
+.prog {
+    padding: 10px;
+}
+.abtn{
+float: right;
+}
+
+
+/* -------------------------Services---------------------------------- */
+#services {
+    padding-top: 50px;
+}
+
+.services-bg {
+    background-color: #f3f5fa;
+}
+
+.cards .card {
+    /* border: 1px solid red; */
+    text-align: center;
+    border-radius: 0%;
+    width: 100%;
+    height: 250px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(14, 33, 212, 0.2), 0 6px 20px 0 rgba(10, 127, 166, 0.19);
+}
+
+.card-body i {
+    margin-bottom: 30px;
+}
+
+.card-body .fs-4 {
+    font-weight: 700;
+    color: #37517e;
+}
+
+.text {
+    color: #444444;
+}
+
+.cta {
+    /* background: url(./img/cta-bg.jpg) no-repeat center center/cover;  */
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(./img/cta-bg.jpg)fixed center;
+
+}
+
+#cta-btn {
+    border-color: white;
+}
+
+#cta-btn:hover {
+    border-color: rgb(103, 181, 211);
+
+}
+
+/* -------------portfolio------------------- */
+#portfolio {
+    /* height: 87rem; */
+    padding-top: 50px;
+    
+}
+
+.item {
+    margin-right: 10px;
+    padding: 5px 20px;
+    font-weight: 700;
+}
+
+.item:hover {
+    color: white;
+    background-color: skyblue;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.active {
+    color: white;
+    background-color: skyblue;
+    border-radius: 20px;
+    font-weight: 700;
+}
+
+.products .row div img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ---------------team----------------- */
+#team {
+    padding-top: 50px;
+    margin-top: 40rem;
+    
+}
+
+#team {
+    background-color: #f3f5fa;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(14, 33, 212, 0.2), 0 6px 20px 0 rgba(10, 127, 166, 0.19);
+}
+
+.social-link1 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff2f8;
+    border-radius: 50%;
+
+    /* color: rgb(255, 255, 255); */
+    i {
+        margin-top: 2rem;
+
+    }
+}
+
+.social-link1:hover {
+    background-color: rgb(116, 214, 240);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+/* -----------------Pricing---------------- */
+.months {
+    margin-top: -25px;
+}
+
+.pricein {
+
+    color: #37517e !important;
+}
+
+#pricebtn:hover {
+    color: white;
+}
+
+
+/* -----------------FREQUENTLY ASKED QUESTIONS--------------- */
+.faqbg {
+    background-color: #f3f5fa;
+}
+
+.questions {
+    margin-left: 28px;
+}
+
+.myd {
+    margin-top: 15px;
+    /* max-width: 85%; */
+    /* height: auto; */
+}
+
+.quebtn {
+    /* margin-left: 4rem; */
+    float: right;
+}
+
+
+/* ---------------Contact-------------------- */
+#contact {
+    padding-top: 50px;
+}
+
+.contact-icon {
+    margin-top: 12px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d6e2f9;
+    border-radius: 50%;
+
+}
+
+.mycontact {
+    color: #4a6490;
+}
+
+.contact-icon:hover {
+    cursor: pointer;
+    background-color: skyblue;
+    color: rgb(229, 225, 225);
+}
+
+.contact-msg {
+    height: 100%;
+}
+
+.msg-btn {
+    margin-left: 14rem;
+}
+
+
+/* --------------news-------------------- */
+.newsbg {
+    background-color: #f3f5fa;
+}
+
+/* ---------------footnav--------------------- */
+.myr div {
+    border: 1px solid red;
+    max-width: 100%;
+    height: auto;
+}
+
+.address {
+    width: 15rem;
+}
+
+.links {
+    margin-left: 5rem;
+    width: 20rem;
+    list-style: none;
+}
+
+.u-link {
+    margin-left: 5px;
+    padding: 5px;
+
+    i {
+        color: #0d4ab4;
+        margin-right: 10px;
+    }
+}
+
+.u-link:hover {
+    color: #0d4ab4;
+    cursor: pointer;
+}
+
+.services {
+    list-style: none;
+    width: 20rem;
+}
+
+.services-list {
+    margin-left: 5px;
+    padding: 5px;
+
+    i {
+        color: #0d4ab4;
+        margin-right: 10px;
+    }
+}
+
+.services-list:hover {
+    cursor: pointer;
+    color: #0d4ab4;
+}
+
+.network {
+    width: 20rem;
+
+}
+
+.social-link2 {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #eff2f8;
+    border-radius: 50%;
+}
+
+.social-link2:hover {
+    background-color: rgb(116, 214, 240);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+
+/* ----------------Footer------------------- */
+#footer .container-fuild {
+    background-color: #37517e;
+
+}
+
