@@ -26,9 +26,7 @@
     }
 
     .ordercls {
-        .order-1 {
-            padding-top: 8rem;
-        }
+    
         .morder-1{
             order: 1;
         }
