@@ -26,20 +26,22 @@
     }
 
     .ordercls {
-    
-        .morder-1{
+
+        .morder-1 {
             order: 1;
         }
+
         .morder-2 {
             order: 2;
             text-align: center;
             align-items: center;
         }
+
     }
+
 
     .myheading {
         margin-left: 5rem;
-        padding-bottom: 2rem;
     }
 
     .client {
@@ -73,7 +75,8 @@
             order: 1;
             padding-bottom: 3rem;
         }
-        .a-order-2{
+
+        .a-order-2 {
             order: 2;
         }
 
