@@ -29,8 +29,11 @@
         .order-1 {
             padding-top: 8rem;
         }
-
-        .order-2 {
+        .morder-1{
+            order: 1;
+        }
+        .morder-2 {
+            order: 2;
             text-align: center;
             align-items: center;
         }
@@ -68,8 +71,12 @@
     }
 
     .about-order {
-        .order-1 {
+        .a-order-1 {
+            order: 1;
             padding-bottom: 3rem;
+        }
+        .a-order-2{
+            order: 2;
         }
 
     }

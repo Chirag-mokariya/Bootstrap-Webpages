@@ -1,3 +1,8 @@
+*{
+    p{
+        font-size: larger;
+    }
+}
 /* ------------------------header-----------------------  */
 .navbar {
     /* background-color: #37517e !important; */
@@ -146,8 +151,9 @@ float: right;
 }
 
 /* -------------portfolio------------------- */
+
 #portfolio {
-    /* height: 87rem; */
+    height: 58rem;
     padding-top: 50px;
     
 }
@@ -177,6 +183,35 @@ float: right;
     height: auto;
 }
 
+.img4{
+    position: absolute;
+    top: 18px;
+}
+.img5{
+    position: absolute;
+    left: 439px;
+    top: -122px;
+}
+.img6{
+    position: absolute;
+    top: -168px;
+    left: 880px;
+}
+.img7{
+    position: absolute;
+    top: 127px;
+    left: 880px;
+}
+.img8{
+    position: absolute;
+    top: 517px;
+    left: 438px;
+}
+.img9{
+    position: absolute;
+    top: 412px;
+    left: 880px;
+}
 
 /* ---------------team----------------- */
 #team {
